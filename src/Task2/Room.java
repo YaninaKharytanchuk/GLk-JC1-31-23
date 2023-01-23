@@ -1,14 +1,39 @@
 package Task2;
 
 public class Room {
-  private int height;
-    private Integer Integer;
-    private byte door;
-    private Byte Byte;
-    private short width;
-    private Short Short;
-    private  long chairs;
-    private Long Long;
+  private byte name; // Объявление переменных глобальных
+  private short room = 89;
+  private int height = 3;
+  private long length = 16;
+  private boolean window;
+  private char sign = 'p';
+  private String street = "title";
+  private float meaning1;
+  private double meaning2 = 15.01;
+  private Integer i = 33; // Объявление оболочек переменных
+  private Character c = 'r';
+  private Long l = 44L;
+  private Short s =9;
+  private Byte b = (byte)9;
+  private Double d = 2.1;
+  private Float f = 0.9F;
+  private Boolean o = true;
+
+  public byte getName() { // Созданы геттеры и сеттеры
+    return name;
+  }
+
+  public void setName(byte name) {
+    this.name = name;
+  }
+
+  public short getRoom() {
+    return room;
+  }
+
+  public void setRoom(short room) {
+    this.room = room;
+  }
 
   public int getHeight() {
     return height;
@@ -18,92 +43,12 @@ public class Room {
     this.height = height;
   }
 
-  public java.lang.Integer getInteger() {
-    return Integer;
+  public long getLength() {
+    return length;
   }
 
-  public void setInteger(java.lang.Integer integer) {
-    Integer = integer;
-  }
-
-  public byte getDoor() {
-    return door;
-  }
-
-  public void setDoor(byte door) {
-    this.door = door;
-  }
-
-  public java.lang.Byte getByte() {
-    return Byte;
-  }
-
-  public void setByte(java.lang.Byte aByte) {
-    Byte = aByte;
-  }
-
-  public short getWidth() {
-    return width;
-  }
-
-  public void setWidth(short width) {
-    this.width = width;
-  }
-
-  public java.lang.Short getShort() {
-    return Short;
-  }
-
-  public void setShort(java.lang.Short aShort) {
-    Short = aShort;
-  }
-
-  public long getChairs() {
-    return chairs;
-  }
-
-  public void setChairs(long chairs) {
-    this.chairs = chairs;
-  }
-
-  public java.lang.Long getLong() {
-    return Long;
-  }
-
-  public void setLong(java.lang.Long aLong) {
-    Long = aLong;
-  }
-
-  public float getTemperature() {
-    return temperature;
-  }
-
-  public void setTemperature(float temperature) {
-    this.temperature = temperature;
-  }
-
-  public java.lang.Float getFloat() {
-    return Float;
-  }
-
-  public void setFloat(java.lang.Float aFloat) {
-    Float = aFloat;
-  }
-
-  public double getHumidity() {
-    return humidity;
-  }
-
-  public void setHumidity(double humidity) {
-    this.humidity = humidity;
-  }
-
-  public char getVolume() {
-    return volume;
-  }
-
-  public void setVolume(char volume) {
-    this.volume = volume;
+  public void setLength(long length) {
+    this.length = length;
   }
 
   public boolean isWindow() {
@@ -114,24 +59,100 @@ public class Room {
     this.window = window;
   }
 
-  public String getName() {
-    return name;
+  public char getSign() {
+    return sign;
   }
 
-  public void setName(String name) {
-    this.name = name;
+  public void setSign(char sign) {
+    this.sign = sign;
   }
 
-  private  float temperature;
-    private Float Float;
-    private double humidity;
-    private char volume;
-    private boolean window;
-    String name;
+  public String getStreet() {
+    return street;
+  }
 
-    public void say() {
-        boolean isExsiste = true;
-        int door = 7;
-        System.out.println(name);
-    }
+  public void setStreet(String street) {
+    this.street = street;
+  }
+
+  public float getMeaning1() {
+    return meaning1;
+  }
+
+  public void setMeaning1(float meaning1) {
+    this.meaning1 = meaning1;
+  }
+
+  public double getMeaning2() {
+    return meaning2;
+  }
+
+  public void setMeaning2(double meaning2) {
+    this.meaning2 = meaning2;
+  }
+
+  public Integer getI() {
+    return i;
+  }
+
+  public void setI(Integer i) {
+    this.i = i;
+  }
+
+  public Character getC() {
+    return c;
+  }
+
+  public void setC(Character c) {
+    this.c = c;
+  }
+
+  public Long getL() {
+    return l;
+  }
+
+  public void setL(Long l) {
+    this.l = l;
+  }
+
+  public Short getS() {
+    return s;
+  }
+
+  public void setS(Short s) {
+    this.s = s;
+  }
+
+  public Byte getB() {
+    return b;
+  }
+
+  public void setB(Byte b) {
+    this.b = b;
+  }
+
+  public Double getD() {
+    return d;
+  }
+
+  public void setD(Double d) {
+    this.d = d;
+  }
+
+  public Float getF() {
+    return f;
+  }
+
+  public void setF(Float f) {
+    this.f = f;
+  }
+
+  public Boolean getO() {
+    return o;
+  }
+
+  public void setO(Boolean o) {
+    this.o = o;
+  }
 }
+
