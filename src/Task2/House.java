@@ -39,7 +39,6 @@ public class House {
         test2.getHeight();
         System.out.println("Работа с сеттерами Meaning2 = "+test2.getMeaning2());
         test2.getMeaning2();
-
         System.out.println(b); // Вывод переменных на консоль
         System.out.println(g);
         System.out.println(k);
